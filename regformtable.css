@@ -1,0 +1,65 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  padding: 50px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, Tahoma, san-serif;
+  border: 3px solid #b40404;
+  border-radius: 10px;
+}
+thead{
+  border: 3px solid white;
+  border-radius: 10px;
+}
+thead tr #image{
+  text-align: right;
+  width: 15%;
+}
+thead img{
+  width: 125px;
+  margin-right: 10px;
+}
+tbody{
+  line-height: 32px;
+}
+tbody .drrmCaption th{
+  padding: 2.5px 15px;
+  background-color: #b40404;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.drrm th{
+  color: #c9081f;
+}
+.drrm td{
+  font-weight: bold;
+}
+td, th{
+  text-align: left;
+}
+#taLeft{
+  text-align: right;
+}
+#taCenter{
+  text-align: center;
+}
+#second{
+  background-color: #b40404;
+}
+#second th{
+  text-align: center;
+  padding: 2.5px 15px;
+  color: white;
+}
+.subs{
+  font-family: 'Courier New', Arial, Monospace;
+  font-weight: bold;
+}
+#pLeft{
+  padding-left: 20px;
+}
